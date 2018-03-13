@@ -47,3 +47,30 @@ Finally, you can now send HTTP POST requests to the server, and it will respond 
 	"jwt": "MYJWT"
 }
 ```
+
+### Additiional Notes
+
+Logging into a GuestID user can be done via the following request:
+
+**URL**
+https://api.ciscospark.com/v1/jwt/login
+
+**METHOD**
+POST
+
+**HEADER**
+```json
+{
+  "Content-type": "application/json",
+  "Authorization": "Bearer ${MYJWT}"
+}
+```
+
+**BODY**
+```json
+{ }
+```
+
+### External References
+
+[Cisco Spark Developer Portal for GuestID](https://developer.ciscospark.com/guest-issuer.html)
