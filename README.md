@@ -16,7 +16,7 @@ module.exports =
 };
 ```
 
-Next, you will need to initialize the application by running `npm start` while in the project's directory. This will start the server.
+Next, you will need to initialize the application by running both `npm install` and `npm start` while in the project's directory. This will start the server.
 
 Finally, you can now send HTTP POST requests to the server, and it will respond with a usable JWT for Cisco Spark GuestID. An example request process below:
 
